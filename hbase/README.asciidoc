@@ -9,6 +9,10 @@ Use the following commands to build and run the sample
     $ mvn clean package
     $ sh ./target/appassembler/bin/usercount
 
+for win:
+
+    cd target/appassembler/bin/usercount
+    usercount
 
 
 

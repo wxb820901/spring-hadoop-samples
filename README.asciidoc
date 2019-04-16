@@ -41,4 +41,17 @@ Many of the samples were taken from the O'Reilly book link:http://shop.oreilly.c
 The main web site for link:http://www.springsource.org/spring-data/hadoop[Spring for Apache Hadoop]
 
 
+=== outlook of dir
 
+ 1, in intellij left click parent/pom.xml and choose add as maven project to load is into right side maven browser
+ 2, run under docker test env ==> "docker-compose up" under spring-hadoop-samples folder
+
+* boot/boot-fsshell ==> spring boot integrate hadoop and connect HDFS with FsShell
+* boot/yarn-* ==> ignore, because i want spark
+* dataset ==> access HDFS with org.springframework.data.hadoop.store
+
+* hbase ==> do as README.*. it needs zookeeper
+* hive* ==> do as README.*. it needs hive2://localhost:10000
+* mapreduce ==> do as README.*
+* mr-batch ==> do as README.*
+* pig ==>
